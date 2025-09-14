@@ -21,3 +21,21 @@ variable "bucket_name" {
   default = "bhagyashreebucket"
   type        = string
 }
+
+variable "vpc_name" {
+  description = "The name of the VPC network"
+  type        = string
+  default     = "my-vpc"
+}
+
+variable "subnet_name" {
+  description = "The name of the subnet"
+  type        = string
+  default     = "my-subnet"
+}
+
+variable "subnet_ip" {
+  description = "The IP CIDR range of the subnet"
+  type        = string
+  default     = "10.0.1.0/24"
+}
