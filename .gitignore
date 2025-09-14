@@ -1,0 +1,23 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Sensitive files
+service.json
+
+# Local .tfvars files, which may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore editor and OS files
+*.swp
+.DS_Store
+.idea/
+.vscode/
